@@ -5,3 +5,4 @@
 - Profile Management
 - Password
 - Reset Password
+- Image Upload
