@@ -5,3 +5,11 @@ from django.http import HttpResponse
 def home(request):
 	data = {}
 	return render(request, 'base.html', context= data)
+
+def home(request):
+	return render(requet, 'login.html', {})
+
+def register(request):
+	return render(requet, 'register.html', {})
+
+
