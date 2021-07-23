@@ -13,6 +13,10 @@ class Author(models.Model):
 	def __str__(self):
 		return self.user.username
 
+	class Meta:
+		verbose_name  		= 'Author'
+		verbose_name_plural = 'Authores'
+
 class Category(models.Model):
 	title      = models.CharField(max_length=100)
 
@@ -36,3 +40,7 @@ class Post(models.Model):
 
 	def __str__(self):
 		return self.title
+
+	class Meta:
+		verbose_name  		= 'Post'
+		verbose_name_plural = 'Posts'
